@@ -6,7 +6,7 @@ import Home from './pages/Home/Home';
 import 'boxicons';
 import ChatRoom from './pages/ChatRoom/ChatRoom';
 import CreateUser from '../src/pages/CreateUser/CreateUser';
-import DataProvider from "../src/context/Dataprovider";
+
 
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
    
 
     return(
-        <DataProvider>
+
             <div className="App">
             <Router >
                 <Switch>
@@ -36,7 +36,7 @@ function App() {
                 </Switch>
             </Router>
             </div>
-        </DataProvider>
+       
     );         
 
 };
