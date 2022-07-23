@@ -22,9 +22,7 @@
     "sockjs-client": "^1.6.1",
     "stompjs": "^2.3.3",
     "web-vitals": "^2.1.4",
-    "engines": {
-      "node": "16.x"
-    }
+    "node": "16.15.0"
   },
   "scripts": {
     "start": "react-scripts start",
