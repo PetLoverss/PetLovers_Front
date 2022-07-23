@@ -48,19 +48,13 @@ const Login= () => {
     }
 
     function handleSubmit(){
-
-        let account={cedula,password}
-        UserService.getUsers().then(data=>{
-            setListUsers(data);
-            localStorage.setItem('items4',data[0]);
-        });
-       if(cedula){
+       if(cedula==='1010247478'&& password==='123456'){
             console.log('usuario registrado')
             window.location = "/Home";
     
         setHasError(true);  
 
-    };
+        };
     }
     function handleonClick(){
         window.location = "/CreateUser";
