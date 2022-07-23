@@ -9,7 +9,7 @@
 }
 
 .login-content{
-    width:50%;
+    width:100%;
     height:100%;
     align-items: center;
     display:flex;
@@ -21,15 +21,16 @@
 }
 
 .submit-button-container{
-    display:flex;
+   display:flex;
     justify-content:Center;
     align-items:Center;
     margin-top:30px;
+    
 }
 
-.submit-button{
-    width:100%;
-    height: 40px;
+.buttoningre{
+    width:100px;
+    height: 50px;
     border-radius: 25px;
     border: none;
     outline: none;
@@ -38,6 +39,7 @@
     font-size: 14px;
     font-weight: bold;
 }
+
 
 .submit-button:hover{
     opacity:0.6
@@ -69,8 +71,8 @@
 
 
 .btnCreate{
-    width:100%;
-    height: 40px;
+    width:100px;
+    height: 50px;
     border-radius: 25px;
     border: none;
     outline: none;

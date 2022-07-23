@@ -7,6 +7,7 @@ import Header from '../Login/components/Header/Header';
 import UserService from '../../service/UserService';
 import Home from '../Home/Home';
 
+
 const Login= () => {
 
     const [cedula,setUser ]=useState('');
@@ -50,8 +51,6 @@ const Login= () => {
     function handleSubmit(){
        if(cedula==='1010247478'&& password==='123456'){
             console.log('usuario registrado')
-           
-    
         setHasError(true);  
 
         };
@@ -95,14 +94,12 @@ const Login= () => {
                         Contraseña inválida o incompleta
                     </label>
                 }
-                <div className="submit-button-container">
-                    <button onClick={handleSubmit} className='submit-button'>
-                        Ingresar
-                    </button>
+                <div onClick={handleSubmit} className="submit-button-container">
+                    <button className='buttoningre'>Ingresar</button>
                 </div> 
                 <div onClick={handleonClick} className="bottomCreate">
-                <button className="btnCreate">Registrarse</button>
-            </div>      
+                    <button className="btnCreate">Registrarse</button>
+                </div>      
             </div>
         </div>
     )
