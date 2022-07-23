@@ -12,7 +12,7 @@ const CreateUser =()=>{
         var form = document.forms['registro'];
         form.onsubmit = function(e){
         e.preventDefault();
-        var select = document.form.cedula.value;
+        var select = document.form.user.value;
         console.log(select);
         
 }
@@ -24,7 +24,7 @@ const CreateUser =()=>{
         <div className="CreateUser-container">
         <Header />
            <form name="registro">
-            
+           <select name="user" id="user">
            <Input 
                     attribute={{
                         id:'nombre',
@@ -73,6 +73,7 @@ const CreateUser =()=>{
                     }}
                     handleChange={handleChange}     
             />
+            </select>
             
              <div className="submit-button-container">
                     <button onClick={handleSubmit} className='submit-button'>
