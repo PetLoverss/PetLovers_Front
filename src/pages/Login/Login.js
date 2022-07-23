@@ -50,11 +50,12 @@ const Login= () => {
     function handleSubmit(){
        if(cedula==='1010247478'&& password==='123456'){
             console.log('usuario registrado')
-            window.location = "/Home";
+           
     
         setHasError(true);  
 
         };
+        window.location = "/Home";
     }
     function handleonClick(){
         window.location = "/CreateUser";
