@@ -14,18 +14,17 @@ const CreateUser =()=>{
         e.preventDefault();
         var select = document.form.cedula.value;
         console.log(select);
-        window.location ="/Home";
+       
     }
+    window.location ="/Home";
         
 }
        
-   
 
     return (
         <div className="CreateUser-container">
         <Header />
            <form name="registro">
-           
            <Input 
                     attribute={{
                         id:'nombre',
