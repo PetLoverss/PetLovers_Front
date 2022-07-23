@@ -14,12 +14,13 @@ const CreateUser =()=>{
         e.preventDefault();
         var select = document.form.cedula.value;
         console.log(select);
-       
+        
     }
     window.location ="/Home";
         
 }
        
+
 
     return (
         <div className="CreateUser-container">

@@ -49,12 +49,12 @@ const Login= () => {
     }
 
     function handleSubmit(){
-       if(cedula==='1010247478'&& password==='123456'){
+       if((cedula==='1010247478'&& password==='123456')||(cedula==='39557102'&&password==='123456')){
             console.log('usuario registrado')
         setHasError(true);  
-
-        };
-        window.location = "/Home";
+       
+        }; window.location = "/Home";
+       
     }
     function handleonClick(){
         window.location = "/CreateUser";

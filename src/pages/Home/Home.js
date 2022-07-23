@@ -28,8 +28,8 @@ const Home=() => {
                     </a>
 
                     <div className="product_footer">
-                        <h1>Nombre Producto</h1>
-                        <p>Peso Producto</p>
+                        <h1>Monello</h1>
+                        <p>25kg</p>
                         <p className="price">$200.000</p>
                     </div>
                     
@@ -48,9 +48,9 @@ const Home=() => {
                     </a>
 
                     <div className="product_footer">
-                        <h1>Nombre Producto</h1>
-                        <p>Peso Producto</p>
-                        <p className="price">$200.000</p>
+                        <h1>Monello</h1>
+                        <p>18kg</p>
+                        <p className="price">$150.000</p>
                     </div>
 
                     <div className="buttom">
@@ -66,9 +66,9 @@ const Home=() => {
                         </div>
                     </a>
                     <div className="product_footer">
-                        <h1>Nombre Producto</h1>
-                        <p>Peso Producto</p>
-                        <p className="price">$200.000</p>
+                        <h1>Monello</h1>
+                        <p>12kg</p>
+                        <p className="price">$90.000</p>
                     </div>
                     <div className="buttom">
                         <button className="btn"> Añadir al carrito</button>
@@ -82,9 +82,9 @@ const Home=() => {
                         </div>
                     </a>
                     <div className="product_footer">
-                        <h1>Nombre Producto</h1>
-                        <p>Peso Producto</p>
-                        <p className="price">$200.000</p>
+                        <h1>Monello</h1>
+                        <p>3kg</p>
+                        <p className="price">$24.000</p>
                     </div>
                     <div className="buttom">
                         <button className="btn"> Añadir al carrito</button>
