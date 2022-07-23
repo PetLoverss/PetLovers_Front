@@ -21,7 +21,10 @@
     "rm-modules": "^1.0.1",
     "sockjs-client": "^1.6.1",
     "stompjs": "^2.3.3",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "engines": {
+      "node": "16.x"
+    }
   },
   "scripts": {
     "start": "react-scripts start",
